@@ -281,7 +281,7 @@ def main():
 
         porcentajes = [
             "Dividend Yield %", "Payout Ratio", "ROA", "ROE",
-            "Oper Margin", "Profit Margin", "WACC", "ROIC"
+            "Oper Margin", "Profit Margin", "WACC", "ROIC", "EVA"
         ]
         for col in porcentajes:
             if col in df.columns:
